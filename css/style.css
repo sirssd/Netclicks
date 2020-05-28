@@ -682,6 +682,19 @@ main {
 
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    text-align: center;
+    color: #000;
+    background-color: bisque;
+    margin: 0 8px;
+    padding: 5px 10px;
+}
+
 @media (max-width: 1024px) {
     .container {
         padding: 0 60px;
